@@ -1,0 +1,86 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+
+.contenair h1{
+    color: hsl(0, 0%, 95%);
+    margin-left: 30px;
+    font-family: BigShouldersDisplay;
+    font-weight: lighter;
+
+}
+
+.contenair p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 15em;
+    margin-top: 30px;
+    font-family: LexendDeca;
+    font-size: 12px;
+    
+}
+
+.contenair {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 70%;
+    padding: 15%;
+    border-radius: 50px;
+    
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px; 
+          
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+   
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0; 
+  }
+
+img{
+    width: 20%;
+    padding: 14% 0 0 10%;
+}
+
+button{
+    background: hsl(0, 0%, 95%);
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+    margin-left: 35px;
+    margin-top: 60px;   
+    font-family: LexendDeca;
+    display: inline-block;
+    vertical-align: top;
+    border: 0;
+    mix-blend-mode: screen;
+    font-size: 11px;
+  }
+
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: solid white 1px;
+    mix-blend-mode: unset;
+    color: white;
+}
+
+@font-face {
+    font-family: LexendDeca;
+    src: url(/Assets/LexendDeca-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: BigShouldersDisplay;
+    src: url(/Assets/BigShouldersDisplay-VariableFont_wght.ttf);
+}
