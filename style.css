@@ -25,11 +25,11 @@ body{
 .contenair {
     display: flex;
     flex-direction: row;
-    height: 400px;
+    height: 25em;
     width: 70%;
     padding: 10%;
     border-radius: 50px;
-    margin-left: 20%;
+    margin:auto;
     
 }
 
