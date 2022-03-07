@@ -1,7 +1,13 @@
 body{
     background-color: hsl(0, 0%, 95%);
     overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
 
 .contenair h1{
     color: hsl(0, 0%, 95%);
